@@ -6,12 +6,15 @@ It features a **tab-based navigation** with screens for Home, Rides, Chat, and P
 ---
 
 ## 📂 Project Structure
+
+```plaintext
 app/
-│── _layout.tsx       # Root layout, defines Tab Navigator
-│── home.tsx          # Home screen
-│── rides.tsx         # Rides screen
-│── chat.tsx          # Chat screen
-│── profile.tsx       # Profile screen
+│── _layout.tsx   # Root layout, defines Tab Navigator
+│── home.tsx      # Home screen
+│── rides.tsx     # Rides screen
+│── chat.tsx      # Chat screen
+│── profile.tsx   # Profile screen
+```
 
 - **`_layout.tsx`** → Sets up the bottom tab navigation using Expo Router.  
 - **Other screens** (`home.tsx`, `rides.tsx`, `chat.tsx`, `profile.tsx`) are linked directly to the tabs.  
