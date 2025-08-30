@@ -8,12 +8,51 @@ It features a **tab-based navigation** with screens for Home, Rides, Chat, and P
 ## 📂 Project Structure
 
 ```plaintext
+
 app/
-│── _layout.tsx   # Root layout, defines Tab Navigator
-│── home.tsx      # Home screen
-│── rides.tsx     # Rides screen
-│── chat.tsx      # Chat screen
-│── profile.tsx   # Profile screen
+│── _layout.tsx         # Root layout, defines Tab Navigator
+│── home.tsx            # Home screen (tab)
+│── rides.tsx           # Rides screen (tab)
+│── chat.tsx            # Chat screen (tab)
+│── profile.tsx         # Profile screen (tab)
+
+# Authentication
+│── sign-in.tsx         # Login screen
+│── sign-up.tsx         # Register screen
+│── welcome.tsx         # Onboarding / welcome screen
+
+# Ride Booking Flow
+│── find-ride.tsx       # Search for rides
+│── book-ride.tsx       # Book a ride
+│── confirm-ride.tsx    # Confirm ride details
+
+# APIs
+│── create+api.ts       # Create ride API
+│── pay+api.ts          # Payment API integration
+│── driver+api.ts       # Driver-related API
+│── user+api.ts         # User-related API
+│── [id]+api.ts         # Dynamic ride/user API
+
+components/
+│── RideLayout.tsx      # Common ride layout wrapper
+│── RideCard.tsx        # Ride item card
+│── DriverCard.tsx      # Driver details card
+│── CustomButton.tsx    # Reusable button
+│── GoogleTextInput.tsx # Google Maps input
+│── InputField.tsx      # Reusable text input
+│── Map.tsx             # Map view integration
+│── OAuth.tsx           # Google OAuth login
+│── Payment.tsx         # Payment component
+
+lib/
+│── fetch.ts            # API fetch helpers
+│── map.ts              # Google Maps utilities
+│── utils.ts            # General utilities
+│── auth.ts             # Auth-related utilities
+
+constants/
+│── index.ts            # App constants (API keys, values, etc.)
+
 ```
 
 - **`_layout.tsx`** → Sets up the bottom tab navigation using Expo Router.  
