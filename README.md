@@ -60,3 +60,15 @@ Bottom Tab Navigation
 Organized using Expo Router’s file system-based navigation.
 
 
+## 📸 Screenshots
+<p align="center"> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/_image3.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image4.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image_1.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image_2.jpg?raw=true" width="250"/> </p>
+
+
+## 👨‍💻 Contributing
+
+Feel free to fork this repository, create a branch, and submit a pull request for improvements.
+
+
+## Contact
+
+For any queries, feel free to reach out at [akashburnwal550@gmail.com].
