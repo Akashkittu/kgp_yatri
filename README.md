@@ -76,14 +76,29 @@ constants/
 git clone https://github.com/Akashkittu/kgp_yatri.git
 cd kgp_yatri
 ```
-## 2. Install dependencies
+## 2. 🔑 Environment Variables
+
+Create a **.env** file in the root of your project and add the following:
+
+```bash
+EXPO_PUBLIC_API_KEY=your_api_key_here
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+DATABASE_URL=your_postgres_connection_string_here
+STRIPE_SECRET_KEY=your_stripe_secret_key_here
+EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key_here
+EXPO_PUBLIC_GOOGLE_API_KEY=your_google_api_key_here
+EXPO_PUBLIC_DIRECTIONS_API_KEY=your_google_directions_api_key_here
+EXPO_PUBLIC_GEOAPIFY_API_KEY=your_geoapify_api_key_here
+```
+
+## 3. Install dependencies
 ```bash
 npm install
 # or
 yarn install
 ```
 
-## 3. Run the app
+## 4. Run the app
 ```bash
 npx expo start
 ```
