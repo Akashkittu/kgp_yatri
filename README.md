@@ -40,6 +40,7 @@ cd kgp_yatri
 npm install
 # or
 yarn install
+```
 
 ## 3. Run the app
 npx expo start
