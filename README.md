@@ -5,8 +5,7 @@ It features a **tab-based navigation** with screens for Home, Rides, Chat, and P
 
 ---
 
-# 📂 Project Structure
-
+## 📂 Project Structure
 app/
 │── _layout.tsx       # Root layout, defines Tab Navigator
 │── home.tsx          # Home screen
