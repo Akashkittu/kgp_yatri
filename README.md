@@ -1,4 +1,4 @@
-# 🚖 Ride Sharing App (Expo + Expo Router Tabs)
+# 🚖 KGP YATRI App (Expo + Expo Router Tabs)
 
 This project is a **React Native app built with Expo Router**.  
 It features a **tab-based navigation** with screens for Home, Rides, Chat, and Profile.  
@@ -34,4 +34,26 @@ app/
 ```bash
 git clone https://github.com/Akashkittu/kgp_yatri.git
 cd kgp_yatri
+```
+## 2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+
+## 3. Run the app
+npx expo start
+
+Scan the QR code with your phone (Expo Go app) or run on an emulator.
+
+## 📱 Features
+Bottom Tab Navigation
+
+🏠 Home  
+🚘 Rides  
+💬 Chat  
+👤 Profile  
+
+Organized using Expo Router’s file system-based navigation.
+
 
