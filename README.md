@@ -61,7 +61,7 @@ Organized using Expo Router’s file system-based navigation.
 
 
 ## 📸 Screenshots
-<p align="center"> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/_image3.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image4.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image_1.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image_2.jpg?raw=true" width="250"/> </p>
+<p align="center"><img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image_2.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/_image3.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image4.jpg?raw=true" width="250"/> <img src="https://github.com/Akashkittu/kgp_yatri/blob/main/image_1.jpg?raw=true" width="250"/> </p>
 
 
 ## 👨‍💻 Contributing
