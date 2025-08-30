@@ -45,8 +45,9 @@ yarn install
 ```
 
 ## 3. Run the app
+```bash
 npx expo start
-
+```
 Scan the QR code with your phone (Expo Go app) or run on an emulator.
 
 ## 📱 Features
